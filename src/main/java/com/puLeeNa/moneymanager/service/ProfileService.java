@@ -42,5 +42,14 @@ public class ProfileService {
                 .createdAt(profileEntity.getCreatedAt())
                 .updatedAt(profileEntity.getUpdatedAt())
                 .build();
+//        {
+//            "id": 1,
+//                "fullName": "Pulina Wickramasooriya",
+//                "email": "pulina28062001@gmial.com",
+//                "password": null,
+//                "profileImageUrl": null,
+//                "createdAt": "2025-11-16T03:03:06.759072",
+//                "updatedAt": "2025-11-16T03:03:06.759072"
+//        } in response, password is null because we are not setting it in toDTO method
     }
 }
